@@ -81,5 +81,6 @@ if __name__ == '__main__':
     
     elif args.restore:
         for file in args.files:
-            if check_exist(file, args.quiet):
+            backup_file = f'.{file}.bak'
+            if check_exist(backup_file, args.quiet):
                 restore_file(file, args.quiet)
