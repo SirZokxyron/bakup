@@ -1,6 +1,6 @@
 # bakup
 
-> a simple backup command line utility.
+> A simple backup command line utility.
 
 ## Installation
 
